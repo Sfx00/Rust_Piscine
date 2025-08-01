@@ -20,7 +20,7 @@ pub fn pro(x: i8, y: i8) -> i8 {
     }
 }
 pub fn quo(x: f32, y: f32) -> f32 {
-    x
+    x / y
 }
 pub fn rem(x: f32, y: f32) -> f32 {
     x % y
