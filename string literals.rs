@@ -15,7 +15,7 @@ pub fn find(v: &str, pat: char) -> usize {
 }
 fn main() {
     println!("{}", is_empty(""));
-    println!("{}", is_ascii("rust"));
+    println!("{}", is_ascii("rust文"));
     println!("{}", contains("rust", "ru"));
     println!("{:?}", split_at("rust", 2));
     println!("{}", find("rust", 'a'));
